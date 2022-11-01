@@ -1,0 +1,154 @@
+* {
+  font-size: 14px;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  align-items: center;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.productBlock {
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  width: 42vw;
+  min-width: 600px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: hsl(0, 0%, 100%)
+}
+
+.productBlock #imgMobile {
+  display: none;
+}
+
+.productBlock #imgDesktop {
+  order: 1;
+  flex: 1 0 50%;
+  width: 200px;
+  /* visibility: hidden; */
+  border-radius: 10px 0 0 10px;
+}
+
+.productText {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  order: 2;
+  flex: 1 1 50%;
+  margin: 25px;
+  text-align: left; 
+}
+
+.productText .productType {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.5rem;
+  color: hsl(228, 12%, 48%);
+}
+
+.productText h2 {
+  margin: 0;
+  font-family: 'Fraunces', serif;
+  font-size: 35px;
+  line-height: 35px;
+  color: hsl(212, 21%, 14%);
+}
+
+.productText .description {
+  margin: 0;
+  font-size: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+}
+
+.productText .cost {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.productText .cost .current {
+  margin: 0;
+  /* margin-right: 25px; */
+  font-family: 'Fraunces', serif;
+  font-size: 2.5rem;
+  color: hsl(158, 36%, 37%)
+}
+
+.productText .cost .past {
+  margin: 0;
+  margin-right: 40px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  text-decoration-line: line-through;
+  color: hsl(228, 12%, 48%);
+}
+
+.productText button {
+  padding: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: white;
+  background-color: hsl(158, 36%, 37%);
+  border-radius: 10px;
+  border: none;
+}
+
+.productText button:hover {
+  cursor: pointer;
+}
+
+.productText button img {
+  width: 16px;
+  margin-right: 12px;
+}
+
+/* STARTS MEDIA QUERIES */
+@media(max-width: 700px) {
+  .container {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 40px 0;
+  }
+  .productBlock {
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 375px;
+    min-width: 375px;
+    margin: 0;
+    border-radius: 10px;
+  }
+
+  .productBlock #imgDesktop {
+    display: none;
+  }
+
+  .productBlock #imgMobile {
+    display: initial;
+    width: 100%;
+    flex: 1 0 40%;
+    border-radius: 10px 10px 0 0;
+  }
+
+  .productBlock .productText {
+    flex: 1 0 60%;
+  }
+
+}
