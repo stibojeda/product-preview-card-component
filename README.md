@@ -1,6 +1,6 @@
 # Product-preview-card-component
 Product preview card component created using HTML &amp; CSS for frontendmentor.io .
-This is just a simple project of practice to test my skills. This was created for frontendmentor.io
+This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa).
 
 ## Table of contents
 - [Overview](#overview)
