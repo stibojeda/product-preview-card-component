@@ -45,6 +45,6 @@ Users should be able to:
 - [CURSO CSS desde Cero - CSS BÁSICO Para PRINCIPIANTES](https://www.youtube.com/watch?v=N8V5JhasaSE).
 - [SoloLearn](https://www.sololearn.com/)
 
-## Author
+## About me
 - Portfolio: [Stiven Ojeda](https://stibojeda.github.io)
 - Linkedin: [Stiven Ojeda](https://www.linkedin.com/in/stiven-ojeda-090a3924a)
