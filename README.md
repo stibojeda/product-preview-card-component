@@ -35,14 +35,15 @@ Users should be able to:
 - Semantic HTML5 markup.
 - CSS custom properties
 - Flexbox
-- CSS Grid
 
 ### What I learned
-- I learned a lot about HTML5 and CSS styles with grid and flexbox.
+- I learned a lot about HTML5 and CSS styles with flexbox.
 
 ### Useful resources
 - [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/CSS).
 - [CURSO CSS desde Cero - CSS BÁSICO Para PRINCIPIANTES](https://www.youtube.com/watch?v=N8V5JhasaSE).
+- [SoloLearn](https://www.sololearn.com/)
 
 ## Author
-- Linkedin profile: [Stiven Ojeda](https://www.linkedin.com/in/stiven-ojeda-090a3924a/)
+- Portfolio: [Stiven Ojeda](https://stibojeda.github.io)
+- Linkedin: [Stiven Ojeda](https://www.linkedin.com/in/stiven-ojeda-090a3924a)
