@@ -25,8 +25,9 @@ Users should be able to:
 ![](./screenshot.png)
 
 ### Links
-- Link to the challenge's web site: [Product preview card component](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
-- Link to the solution or live site of the project: 
+- [Challenge's website](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+- [Live solution page](https://stibojeda.github.io/product-preview-card-component/)
+- [Code repository](https://github.com/stibojeda/product-preview-card-component)
 
 
 ## My process 
